@@ -12,6 +12,12 @@
 python setup.py install
 ```
 
+or
+
+```bash
+pip install thread-py
+```
+
 ## Documentation
 
 - to be written

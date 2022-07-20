@@ -1,0 +1,35 @@
+# pyproject.toml
+
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "thread_py"
+version = "1.0.0"
+description = "No Pain Multi-Processing."
+readme = "readme.md"
+authors = [{ name = "Mohamad MAhdi Afshar", email = "me@mamad.dev" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "Intended Audience :: Developers",
+	"Topic :: Software Development :: Libraries :: Python Modules",
+	"Topic :: Communications :: Chat",
+	"Topic :: Internet",
+	"Programming Language :: Python",
+	"Programming Language :: Python :: 3",
+	"Programming Language :: Python :: 3.7",
+	"Programming Language :: Python :: 3.8",
+	"Programming Language :: Python :: 3.9",
+	"Programming Language :: Python :: 3.10",
+]
+keywords = ["thread", "multiprocessing", "thread_py"]
+dependencies = [
+]
+requires-python = ">=3.9"
+
+[project.optional-dependencies]
+dev = []
+
+[project.urls]
+Homepage = "https://github.com/reloadlife/thread_py"
