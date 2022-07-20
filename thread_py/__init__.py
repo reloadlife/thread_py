@@ -204,7 +204,7 @@ class ThreadPy:
     @classmethod
     def get_threads_without_main_thread(
         cls
-    ) -> Union[List[Thread], Generator["ThreadPy.Thread"]]:
+    ) -> Union[List[Thread], Generator["ThreadPy.Thread", None, None]]:
         for th in threading.enumerate():
             if type(th) != cls:
                 continue

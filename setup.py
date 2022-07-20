@@ -6,7 +6,7 @@ setuptools.setup(
     description="No Pain Multi-Processing.",
     author="Mohammad Mahdi Afshar",
     author_email="me@mamad.dev",
-    version="1.0.0",
+    version="1.0.1",
     license="The Unlicensed",
     packages=setuptools.find_packages(),
     dependencies=[
